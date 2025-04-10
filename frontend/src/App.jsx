@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react'
 import './App.css';
-// import './main.jsx';
 import axios from 'axios';
 import "prismjs/themes/prism-tomorrow.css";
 import Editor from "react-simple-code-editor";
@@ -13,8 +12,7 @@ import prism from "prismjs";
 
 function App() {
   const [count, setCount] = useState(0)
-  const [code, setCode] = useState(`function sum(){
-    return 1+1}`)
+  const [code, setCode] = useState(`function sum(){return 1+1}`)
   const [review, setReview] = useState('')
 
   useEffect(()=>{
