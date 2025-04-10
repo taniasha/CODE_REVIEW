@@ -10,6 +10,7 @@ import rehypeHighlight from "rehype-highlight";
 import { highlight } from 'prismjs';
 import prism from "prismjs";
 
+
 function App() {
   const [count, setCount] = useState(0)
   const [code, setCode] = useState(`function sum(){return 1+1}`)
